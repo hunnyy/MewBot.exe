@@ -14,18 +14,27 @@ class youtube
     return h;
   }
 
+  public static JTextArea A1()
+  {  
+    JTextArea a=new JTextArea("Enter Your URLs Here");  
+    a.setBounds(130,230, 200,200);  
+    return a;
+  }
   public static void main(String[] args)
   {  
     JFrame f=new JFrame("MewBot.exe"); //creating instance of JFrame
 
     JLabel h1=H1();
+    JTextArea a1=A1();
 
     f.setLayout(null);  
     JButton b=new JButton("click me");//creating instance of JButton
     b.setBounds(130,100,100, 40);//x axis, y axis, width, height
     f.setVisible(true);          
     f.add(h1);
-    f.add(b);//adding button in JFrame            
+    f.add(b);//adding button in JFrame    
+    f.add(a1);  
+            
     f.setSize(600,700);//600 width and 800 height  
     f.setLayout(null);//using no layout managers  
     f.setVisible(true);//making the frame visible  
