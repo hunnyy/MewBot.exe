@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -65,7 +64,7 @@ class youtube
 
     panel_1.add(bar_1);
 
-    panel_1.setBounds(10,1000,400,50);
+    panel_1.setBounds(0,500,1000,50);
     
 
     JLabel h1=H1();
@@ -90,7 +89,7 @@ class youtube
      
 
 
-    f.setSize(1366,768);//600 width and 800 height  
+    f.setSize(800,600);//600 width and 800 height  
     f.setLayout(null);//using no layout managers  
     f.setVisible(true);//making the frame visible  
 
