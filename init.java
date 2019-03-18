@@ -23,7 +23,7 @@ class youtube
   public static JTextArea A1()
   {  
     JTextArea a=new JTextArea("Enter Your URLs Here");  
-    a.setBounds(130,230, 200,200);  
+    a.setBounds(130,230, 100 ,100);  
     return a;
   }
 
@@ -65,7 +65,7 @@ class youtube
 
     panel_1.add(bar_1);
 
-    panel_1.setBounds(10,300,400,50);
+    panel_1.setBounds(10,1000,400,50);
     
 
     JLabel h1=H1();
@@ -90,7 +90,7 @@ class youtube
      
 
 
-    f.setSize(600,700);//600 width and 800 height  
+    f.setSize(1366,768);//600 width and 800 height  
     f.setLayout(null);//using no layout managers  
     f.setVisible(true);//making the frame visible  
 
